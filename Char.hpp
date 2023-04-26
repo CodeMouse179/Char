@@ -31,6 +31,16 @@ namespace System
             return c1 == c2;
         }
 
+        static int GetHashCode(T c)
+        {
+            return c;
+        }
+
+        static double GetNumericValue(T c)
+        {
+            return -1.0;
+        }
+
         static int GetTypeCode()
         {
             return 4;

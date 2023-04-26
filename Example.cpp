@@ -18,6 +18,18 @@ int main()
     bool eq2 = System::char_t::Equals('a', 'a');
     std::cout << eq2 << "\n";
 
+    int hash1 = CharA::GetHashCode('a');
+    std::cout << hash1 << "\n";
+
+    int hash2 = CharA::GetHashCode('b');
+    std::cout << hash2 << "\n";
+
+    int number1 = CharA::GetNumericValue('1');
+    std::cout << number1 << "\n";
+
+    int number2 = CharA::GetNumericValue('a');
+    std::cout << number2 << "\n";
+
     int type_code = System::char_t::GetTypeCode();
     std::cout << type_code << "\n";
 
