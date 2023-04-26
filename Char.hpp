@@ -55,6 +55,11 @@ namespace System
         {
             return (c >= minInclusive && c <= maxInclusive) ? true : false;
         }
+
+        static bool IsWhiteSpace(T c)
+        {
+            return c == 32;
+        }
     };
 
     typedef System::Char<char> char_t;

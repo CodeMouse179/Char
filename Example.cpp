@@ -45,5 +45,11 @@ int main()
     bool is_ascii_4 = System::char32::IsAscii(128);
     std::cout << is_ascii_4 << "\n";
 
+    bool white1 = CharA::IsWhiteSpace(0);
+    std::cout << white1 << "\n";
+
+    bool white2 = CharA::IsWhiteSpace(' ');
+    std::cout << white2 << "\n";
+
     return 0;
 }
