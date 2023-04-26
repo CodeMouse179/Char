@@ -48,6 +48,8 @@ namespace System
     };
 
     typedef System::Char<char> char_t;
+    typedef System::Char<char> chara;
+    typedef System::Char<wchar_t> charw;
     typedef System::Char<char16_t> char16;
     typedef System::Char<char32_t> char32;
 }
