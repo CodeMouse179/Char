@@ -20,6 +20,25 @@ namespace System
         static const T MinValue = std::numeric_limits<T>::min();
 
     public:
+        static bool Equals(T c1, T c2)
+        {
+            return c1 == c2;
+        }
+
+        static int GetTypeCode()
+        {
+            return 4;
+        }
+
+        static bool IsAscii(T c)
+        {
+            return IsBetween(c, 0, 127);
+        }
+
+        static bool IsBetween(T c, T minInclusive, T maxInclusive)
+        {
+            return (c >= minInclusive && c <= maxInclusive) ? true : false;
+        }
     };
 
     typedef System::Char<char> char_t;
