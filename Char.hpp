@@ -3,6 +3,12 @@
 
 #include <limits>
 
+#define CharA System::Char<char>
+#define CharW System::Char<wchar_t>
+#define Char8
+#define Char16 System::Char<char16_t>
+#define Char32 System::Char<char32_t>
+
 namespace System
 {
     template<typename T>
