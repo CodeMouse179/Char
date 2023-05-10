@@ -3,3 +3,15 @@ CMakeCache.txt
 cmake_install.cmake
 Makefile
 /c
+.vs
+Debug
+ALL_BUILD.vcxproj
+ALL_BUILD.vcxproj.filters
+ALL_BUILD.vcxproj.user
+ZERO_CHECK.vcxproj
+ZERO_CHECK.vcxproj.filters
+/c.dir
+/c.vcxproj
+/c.vcxproj.filters
+/c.vcxproj.user
+/SystemChar.sln
